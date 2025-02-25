@@ -9,7 +9,7 @@ const Banner = () => {
             <img className="d-block w-100" src={banner} alt="First Slide"  />
         
             <Carousel.Caption>
-                <h3>First Slide</h3>
+                <h3>Testing</h3>
                 <p>Banner description goes here.</p>
             </Carousel.Caption>
         </Carousel.Item>
