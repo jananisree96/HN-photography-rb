@@ -2,6 +2,7 @@ import React from "react";
 import { Carousel, Container, Row, Col } from "react-bootstrap";
 import banner from "../images/hero-banner-2.jpg";
 import bannertwo from "../images/hero-banner.jpg";
+import CustomButton from "./CustomButton";
 import "../../src/App.css";
 
 const Banner = () => {
@@ -14,12 +15,16 @@ const Banner = () => {
           <Container className="position-absolute top-50 start-50 translate-middle text-white">
             <Row className="justify-content-center">
               <Col md={8}>
-                <h3>Capturing Moments, Creating Memories</h3>
+                <h4 className="display-4">Life in Frames</h4>
                 <p>
-                  Experience the art of storytelling through our lens. Let us freeze your special moments with breathtaking photography.
+                A picture may fade, but a framed moment lasts forever.
                 </p>
+                <p>
+                A picture may fade with time, but a framed moment remains eternal. Every captured second holds emotions, stories, and memories that stay alive, reminding us of the beauty of life's journey.
+                </p> 
               </Col>
             </Row>
+            <CustomButton/>
           </Container>
         </div>
       </Carousel.Item>
@@ -31,12 +36,13 @@ const Banner = () => {
           <Container className="position-absolute top-50 start-50 translate-middle text-white">
             <Row className="justify-content-center">
               <Col md={8}>
-                <h3>Every Picture Tells a Story</h3>
+                <h3 className="display-4">Snap and Cherish</h3>
                 <p>
                   From weddings to portraits, we bring your vision to life with stunning, high-quality images. Book your session today!
                 </p>
               </Col>
             </Row>
+            <CustomButton/>
           </Container>
         </div>
       </Carousel.Item>
