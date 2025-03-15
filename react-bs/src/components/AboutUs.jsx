@@ -11,8 +11,8 @@ import image7 from '../images/img-7.jpg';
 const AboutUs = () => {
   return (
     <Container fluid className="py-3">
-      <Row className="align-items-center">
-        <Col md={6} className="text-center">
+      <Row>
+        <Col xs={12} md={6}>
           <Swiper
             effect="cube"
             grabCursor={true}
@@ -21,16 +21,16 @@ const AboutUs = () => {
             className="mySwiper"
           >
             <SwiperSlide>
-              <img src={image2} alt="Photography 1" className="img-fluid rounded swiper-image" />
+              <img src={image2} alt="Photography 1" className="img-fluid rounded" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={image7} alt="Photography 3" className="img-fluid rounded swiper-image" />
+              <img src={image7} alt="Photography 3" className="img-fluid rounded" />
             </SwiperSlide>
           </Swiper>
         </Col>
-        <Col md={6}>
-          <h2 className="mb-4">About HN Photography</h2>
-          <p className="lead">
+        <Col xs={12} md={6}>
+          <h2 className="mb-2 mt-3">About HN Photography</h2>
+          <p>
             At HN Photography, we capture moments that tell a story. Our passion
             is to bring emotions to life through the lens, creating memories
             that last a lifetime.

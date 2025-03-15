@@ -58,8 +58,33 @@
     }
   }
 
-   .swiper-image {
-    height: 300px;       
-    object-fit: cover;       
-  }
-  
+/* About left img */
+.mySwiper {
+    height: 450px;
+    width: 100%; 
+    max-width: 600px; 
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%; 
+}
+
+.mySwiper img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.swiper-container {
+    min-height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
