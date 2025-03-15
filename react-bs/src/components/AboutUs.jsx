@@ -4,8 +4,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCube, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-cube";
-import image2 from '../images/img-2.jpg';
-import image7 from '../images/img-7.jpg';
+import image1 from '../images/img-about.avif';
+import image2 from '../images/hero-banner.jpg';
+
 
 
 const AboutUs = () => {
@@ -21,10 +22,10 @@ const AboutUs = () => {
             className="mySwiper"
           >
             <SwiperSlide>
-              <img src={image2} alt="Photography 1" className="img-fluid rounded" />
+              <img src={image1} alt="Photo-1" className="img-fluid rounded" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={image7} alt="Photography 3" className="img-fluid rounded" />
+              <img src={image2} alt="Photo-2" className="img-fluid rounded" />
             </SwiperSlide>
           </Swiper>
         </Col>
