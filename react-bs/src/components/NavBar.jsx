@@ -1,17 +1,14 @@
-import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import CustomButton from './CustomButton';
-import Image from 'react-bootstrap/Image';
-import logo from '../images/hnlogo.png';
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import CustomButton from "./CustomButton";
 
 function NavBar() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary" sticky="top">
       <Container fluid className="d-flex align-items-center justify-content-between">
-        <Navbar.Brand href="#" className="fw-bold">
-        <Image src={logo} width={50} height={50} alt="Logo" />
+        <Navbar.Brand href="#" className="fw-bold text-uppercase fs-5">
+          HN Photography
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll" className="justify-content-center">
