@@ -14,7 +14,7 @@ import img6 from '../images/valentinantonucci.jpg'
 
 
 const Project = () => {
-  const images = [img1, img2, img3, img4, img5,img6];
+  const images = [img6, img2, img3, img4, img5,img1];
 
   return (
     <Container className="mt-5">
