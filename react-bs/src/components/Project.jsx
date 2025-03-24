@@ -37,11 +37,11 @@ const Project = () => {
             className="cardSwiper"
           >
             {images.map((img, index) => (
-              <SwiperSlide key={index}>
-                <Card className="custom-card">
-                  <Card.Img src={img} alt={`Project ${index + 1}`} />
-                </Card>
-              </SwiperSlide>
+              <SwiperSlide key={img}>
+              <Card className="custom-card">
+                <Card.Img src={img} alt={`Project ${index + 1}`} />
+              </Card>
+            </SwiperSlide>            
             ))}
           </Swiper>
         </Col>
