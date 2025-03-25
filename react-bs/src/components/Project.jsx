@@ -29,7 +29,7 @@ const Project = () => {
           </p>
         </Col>
 
-        <Col lg={6} md={12} className="d-flex justify-content-center align-items-center">
+        <Col lg={6} md={12} className="d-flex justify-content-center align-items-center mb-4">
           <Swiper
             effect="cards"
             grabCursor={true}

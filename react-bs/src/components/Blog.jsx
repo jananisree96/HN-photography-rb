@@ -44,7 +44,7 @@ const blogPosts = [
 const Blog = () => {
   return (
     <Container className="mt-5">
-      <h2 className="text-center mb-4">Latest Blog Posts</h2>
+      <h2 className="text-center mb-5">Latest Blog Posts</h2>
       {blogPosts.map((post) => (
         <BlogPost key={post.id} post={post} />
       ))}
