@@ -20,7 +20,7 @@ const Project = () => {
     <Container className="mt-5">
       <Row className="align-items-center">
         <Col lg={6} md={12} className="text-center text-lg-start">
-          <h2>Recent Works</h2>
+          <h2>Our Project</h2>
           <p className="text-justify mt-3">
             Explore our diverse range of projects, showcasing innovation, creativity, and technical expertise.From cutting-edge web applications to dynamic mobile solutions, we bring ideas to life with precision and excellence. Each project reflects our commitment to quality, functionality, and user experience.
           </p>
